@@ -47,6 +47,7 @@
 | `graficos/02_mujeres_localidad.png` | % de mujeres representantes legales: vigentes frente a nuevas |
 | `graficos/03_top_actividades.png` | 10 actividades con más empresas nuevas |
 | `scripts/read_dbf.py` · `scripts/analisis.py` | Código reproducible (Python + pandas + matplotlib) |
+| `fuentes/` | Tipografías de la marca (Montserrat y Open Sans, licencia SIL Open Font License) usadas en los gráficos |
 
 Para reproducir: descarga el archivo de la fuente en `datos/` (no se versiona por su tamaño, 63 MB), `pip install -r requirements.txt` y luego `python scripts/analisis.py datos/conjunto-dinamica-empresarial-bogota-21052026.xlsx .`
 
@@ -54,12 +55,12 @@ Para reproducir: descarga el archivo de la fuente en `datos/` (no se versiona po
 - Sin cancelaciones no se puede medir supervivencia ni creación neta. Para v2: buscar otro corte del portal o los informes de la Cámara de Comercio de Bogotá y Confecámaras.
 - Con un solo corte no hay tendencia. Cuando se publique el próximo corte, se puede comparar.
 - La tasa favorece a las localidades con pocas empresas vigentes; conviene complementarla con empresas por cada 1.000 habitantes (proyecciones de población por localidad).
-- Gráficos en tipografía Inter; para el sitio se rehacen en Montserrat / Open Sans.
 - Las descripciones CIIU provienen de la Resolución DIAN 0139 de 2012 (CIIU Rev. 4 A.C.).
 
 ## Licencia
 - **Código** (`scripts/`): © 2026 Sebastián Padilla Castaño. Todos los derechos reservados. Puedes leerlo y ejecutarlo para revisar el análisis, pero no reutilizarlo ni redistribuirlo sin autorización.
 - **Datos, tablas y gráficos:** [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.es). Los datos derivados (`tablas/`) y los gráficos (`graficos/`) provienen de un conjunto publicado bajo CC BY-SA 4.0, por lo que se comparten bajo la misma licencia.
+- **Tipografías** (`fuentes/`): Montserrat y Open Sans, bajo SIL Open Font License 1.1 (ver `fuentes/OFL-*.txt`).
 - Ver `LICENSE.md`.
 
 ---
